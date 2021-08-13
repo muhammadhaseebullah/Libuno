@@ -1,0 +1,266 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	overflow-x: hidden;
+}
+.my-navbar{
+	background-color: #333745;
+}
+
+.my-navbar div ul li a{
+	color: white;
+	margin-right: 15px;
+	font-size: 20px;
+	transition: ease .4s;
+}
+.my-navbar div ul li a:hover{
+	color: #f2d13e;
+	cursor: pointer;
+
+}
+.my-navbar button span{
+	color: white;
+	transition: ease .4s;
+}
+.my-navbar button span:hover{
+	color:#f2d13e ;
+    transform: rotate(360deg) scale(1.2,1.2);
+}
+.my-carousel{
+	bottom: 0; 
+	border-radius: 0; 
+	width: 100%;  
+	background-color: #f2d13e !important;
+	height: 200px;;
+}
+.my-carousel div ol li{
+	width: 70px;
+	height: 10px;
+}
+.my-popular{
+	margin-top: 100px;
+	
+}
+
+.my-popular h1{
+	font-weight: lighter;
+	
+}
+
+.my-card{
+	
+}
+
+.my-card img{
+	filter: grayscale(100%);
+	transition: ease .3s;
+}
+
+.my-card img:hover{
+	filter: grayscale(0%);
+	cursor: pointer;
+}
+.my-card p{
+	color: #f2d13e;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	font-weight: bolder;
+	transition: ease .3s;
+}
+.my-card p:hover{
+	color: #333745;
+	cursor: pointer;
+	
+}
+.my-jumbo{
+	border-radius: 0px !important;
+	height: auto;
+	margin-top: 100px;
+	background-color: #fafafa !important;
+	background-image: url(../images/j1.jpg)!important;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.my-cards div h3{
+	font-weight: lighter;
+	margin-bottom: 30px;
+}
+
+
+
+.my-cards div span{
+	width: 90px;
+	height: 90px;
+	background-color: #f2d13e;
+	border-radius: 100%;
+
+}
+.my-cards div div span{
+	color: white;
+	padding-top: 20px;
+}
+
+.my-cards div h6{
+	color: #f2d13e;
+	text-align: justify;
+	margin-top: 30px;
+	
+}
+
+.my-cards div p{
+	color:#333745;
+	text-align: justify;
+	margin-top: 20px;
+}
+
+.my-cards div a{
+	color:#333745;
+	float: left;
+	border: solid 2px #333745;
+	padding: 10px 15px;
+	border-left: 10px solid #333745;
+	transition: ease .3s;
+	margin-top: 30px;
+}
+
+.my-cards div a:hover{
+	color:#f2d13e;
+	background-color: #333745;
+	
+	
+
+}
+
+
+.my-client{
+	margin-top: 100px;
+	background-image: url(../images/caption.jpg) !important;
+	height: auto;
+	border-radius: 0px !important;
+}
+
+
+.my-client h5{
+	color: white;
+	margin-bottom: 0;
+	margin-top: 20px;
+	
+}
+.my-client hr{
+	margin-top: 0;
+	width: 60px;
+	height: 5px;
+	border-radius: 15px;
+	text-align: left;	
+	margin-bottom: 0px;
+}
+
+.my-client img{
+	border-radius: 100% !important;	
+	margin-bottom: 10rem;
+	margin-top: 20px;
+	
+}
+@media screen and (min-width:500px) and (max-width:768px){
+	
+	.my-client img{
+	border-radius: 100%;
+	margin-bottom: 120px;
+	margin-bottom: 25rem;
+	}
+}
+
+@media screen and (min-width:320px) and (max-width:499px){
+	
+	.my-client img{
+	border-radius: 100%;
+	margin-bottom: 120px;
+	margin-bottom: 30rem;
+	}
+}
+
+@media screen and  (max-width:319px){
+	
+	.my-client img{
+	border-radius: 100%;
+	margin-bottom: 120px;
+	margin-bottom:34rem;
+	}
+}
+.my-client h4{
+	font-weight: lighter;
+	color: #f2d13e !important;
+	
+}
+
+.my-client-oprator{
+	 font-weight:bolder;
+	color: #8eec69;
+}
+
+.my-footer{
+	background-color: #333745 !important;
+	border-radius: 0px !important;
+}
+.my-mission div h1{
+	font-weight: lighter;
+	margin-top: 100px;
+}
+.my-mission div hr{
+	margin-bottom: 50px;
+}
+.my-mission-number{
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	background-color: #f2d13e; 
+}
+.my-mission-number h5{
+	color: white;
+	padding-left: 10px;
+}
+
+.my-mission div h4{
+	font-weight: lighter;
+	color: #f2d13e;
+}
+
+.my-mission div p{
+	color: gray;
+}
+
+.my-mission div div div h5{
+	color: #f2d13e; 
+}
+
+.my-mission div a{
+	color:#333745;
+	float: left;
+	border: solid 2px #333745;
+	padding: 10px 15px;
+	border-left: 10px solid #333745;
+	transition: ease .3s;
+	margin-top: 30px;
+}
+
+.my-mission div a:hover{
+	color:#f2d13e;
+	background-color: #333745;
+	
+	
+
+}
+
+.my-mission h6{
+	color: #f2d13e;
+}
